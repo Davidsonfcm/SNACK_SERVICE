@@ -1,6 +1,6 @@
 # Projeto SNACK_Service
 
-Este é um projeto de um serviço com o intuito de auxiliar uma maquina de guloseimas nas suas vendas. 
+Este é um projeto de um serviço com o intuito de auxiliar uma máquina de guloseimas nas suas vendas. 
 Abaixo estão as especificações deste projeto.
 
 ### Regras
@@ -8,14 +8,14 @@ Abaixo estão as especificações deste projeto.
 * Saldo expira diariamente;
 * Saldo não cumulativo;
 * Produtos custam 2 e 5,50;
-* produto é retirado saldo é atualizado.
+* Produto é retirado e o saldo é atualizado.
 
 ### Instalação 
 
-Antes de iniciar a execução do serviço o servidor deve possuir mongoDB instalado, que é possivel ser feito atraves do link 
+Antes de iniciar a execução do serviço o servidor deve possuir o mongoDB instalado, que é possivel ser instalado através da Url 
 [MongoDB](https://www.mongodb.com/).
 
-Ao efetuar o clone d aplicação deve ser feito a instalação de todas as dependencias do projeto com o comando a seguir na raiz da pasta do projeto.
+Ao efetuar o clone da aplicação deve ser feito a instalação de todas as dependências do projeto com o comando a seguir na raiz da pasta do projeto.
 
 ```
 npm install
@@ -78,7 +78,7 @@ payload  = {
 
 ```
 
-Para efetuar a compra atráves da máquina e necessário que esse token gerado seja enviado no cabeçalho da requisições de compra. 
+Para efetuar a compra atráves da máquina é necessário que esse token gerado seja enviado no cabeçalho da requisições de compra. 
 
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJudW1lcm9EZVNlcmllIjoiMTIzNDU2Iiw
 
